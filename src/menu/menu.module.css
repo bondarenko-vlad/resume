@@ -1,0 +1,31 @@
+.item {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: 100px;
+  padding: 20px 40px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  opacity: 0.8;
+}
+.item:hover {
+  background-color: #ccc;
+  color: black;
+}
+@media all and (max-width: 757px)  {
+  nav {
+  }
+  .item {
+    width: 20%;
+    padding: 20px 0;
+  }
+
+
+}

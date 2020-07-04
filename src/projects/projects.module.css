@@ -1,0 +1,43 @@
+.content {
+  display: grid;
+  max-width: 1000px;
+
+  grid-template-columns: 1fr 1fr;
+
+
+}
+.wrapper {
+  width: 80%;
+  border: 1px solid black;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+.wrapper:hover {
+  background-color: #ddd
+}
+
+.image img {
+  width: 100%;
+
+}
+
+.description p{
+  font-size: 20px;
+
+
+}
+.description a{
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #230116;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 5px;
+
+}
+.description a:hover {
+  box-shadow: 5px 0px 5px black;
+  color: yellow;
+}

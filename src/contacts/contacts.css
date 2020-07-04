@@ -1,0 +1,8 @@
+.modal {
+
+  background-color:#ccc;
+  margin: 0 auto;
+  width: 40%;
+  height: 400px;
+  display: inline-block;
+}

@@ -1,0 +1,23 @@
+#header {
+  color: white;
+ display: flex;
+ justify-content: space-between;
+ flex-direction: column;
+ align-items: center;
+
+ margin: 100px auto;
+ max-width: 1000px;
+
+ font-family: 'Abel';
+ font-size: 20px;
+ height: 400px;
+
+ background-image: url(../img/react.jpg);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+
+}
+.motivation {
+  font-size: 16px;
+  color: #aaa;
+}
